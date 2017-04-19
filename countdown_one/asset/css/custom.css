@@ -1,0 +1,94 @@
+@import url(https://fonts.googleapis.com/css?family=Anton);
+@import url(http://fonts.googleapis.com/css?family=Roboto:300,400,500,700);
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
+@import url(https://fonts.googleapis.com/css?family=Rokkitt:400,700);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Alfa+Slab+One);
+
+/*
+font-family: "Raleway", sans-serif;
+font-family: "Anton", sans-serif;
+font-family: "Roboto", sans-serif;
+
+*/
+.bg,.btn-custom{
+    background:#0B5282;
+    color: #fff;
+}
+.hover:hover,.btn-custom:hover{color: #fff;background: rgba(11, 82, 130, 0.9);} 
+.bg1{
+    background: url('../img/4.jpg') no-repeat bottom center fixed transparent;   
+    background-size: 100% 100%;
+}
+.bg2{
+    background: url('../img/green.jpg') no-repeat bottom center fixed transparent;   
+    background-size: 100% 100%;
+}
+.bg3{
+    background: url('../img/blue.jpg') no-repeat bottom center fixed transparent;   
+    background-size: 100% 100%;
+}
+.bg4{
+    background: url('../img/bomb.jpg') no-repeat bottom center fixed transparent;   
+    background-size: 100% 100%;
+}
+.bg5{
+    background: url('../img/code.png') no-repeat bottom center fixed transparent;   
+    background-size: 100% 100%;
+}
+body{ 
+    color: #2c3e50; 
+    font-family: "Raleway", sans-serif; 
+    font-size: 14px;
+}
+.mt-15{margin-top: 15% !important;}
+.mt-8{margin-top: 8% !important;}
+
+ 
+/******************************/
+ .col-xsm-1, .col-xsm-2, .col-xsm-3, .col-xsm-4, .col-xsm-5, .col-xsm-6, .col-xsm-7, .col-xsm-8, .col-xsm-9, .col-xsm-10, .col-xsm-11, .col-xsm-12{position: relative; min-height: 1px; padding-right: 15px; padding-left: 15px;}
+ @media (min-width: 500px) and (max-width:991px){.col-xsm-1, .col-xsm-2, .col-xsm-3, .col-xsm-4, .col-xsm-5, .col-xsm-6, .col-xsm-7, .col-xsm-8, .col-xsm-9, .col-xsm-10, .col-xsm-11, .col-xsm-12{float: left;}.col-xsm-12{width: 100%;}.col-xsm-11{width: 91.66666667%;}.col-xsm-10{width: 83.33333333%;}.col-xsm-9{width: 75%;}.col-xsm-8{width: 66.66666667%;}.col-xsm-7{width: 58.33333333%;}.col-xsm-6{width: 50%;}.col-xsm-5{width: 41.66666667%;}.col-xsm-4{width: 33.33333333%;}.col-xsm-3{width: 25%;}.col-xsm-2{width: 16.66666667%;}.col-xsm-1{width: 8.33333333%;}.col-xsm-pull-12{right: 100%;}.col-xsm-pull-11{right: 91.66666667%;}.col-xsm-pull-10{right: 83.33333333%;}.col-xsm-pull-9{right: 75%;}.col-xsm-pull-8{right: 66.66666667%;}.col-xsm-pull-7{right: 58.33333333%;}.col-xsm-pull-6{right: 50%;}.col-xsm-pull-5{right: 41.66666667%;}.col-xsm-pull-4{right: 33.33333333%;}.col-xsm-pull-3{right: 25%;}.col-xsm-pull-2{right: 16.66666667%;}.col-xsm-pull-1{right: 8.33333333%;}.col-xsm-pull-0{right: auto;}.col-xsm-push-12{left: 100%;}.col-xsm-push-11{left: 91.66666667%;}.col-xsm-push-10{left: 83.33333333%;}.col-xsm-push-9{left: 75%;}.col-xsm-push-8{left: 66.66666667%;}.col-xsm-push-7{left: 58.33333333%;}.col-xsm-push-6{left: 50%;}.col-xsm-push-5{left: 41.66666667%;}.col-xsm-push-4{left: 33.33333333%;}.col-xsm-push-3{left: 25%;}.col-xsm-push-2{left: 16.66666667%;}.col-xsm-push-1{left: 8.33333333%;}.col-xsm-push-0{left: auto;}.col-xsm-offset-12{margin-left: 100%;}.col-xsm-offset-11{margin-left: 91.66666667%;}.col-xsm-offset-10{margin-left: 83.33333333%;}.col-xsm-offset-9{margin-left: 75%;}.col-xsm-offset-8{margin-left: 66.66666667%;}.col-xsm-offset-7{margin-left: 58.33333333%;}.col-xsm-offset-6{margin-left: 50%;}.col-xsm-offset-5{margin-left: 41.66666667%;}.col-xsm-offset-4{margin-left: 33.33333333%;}.col-xsm-offset-3{margin-left: 25%;}.col-xsm-offset-2{margin-left: 16.66666667%;}.col-xsm-offset-1{margin-left: 8.33333333%;}.col-xsm-offset-0{margin-left: 0;}}
+
+
+/************* timer section *****************/ 
+.timer-section h1,.btn{text-transform: uppercase;}
+.timer-section h1{  
+margin: 0 auto;
+text-align: center;    
+margin-bottom: 10px;
+/*font-family: "Roboto", sans-serif;*/
+margin-top: 100px
+}
+.timer-section h1 span{
+display: inline-block;
+}
+.timer-section h1 img{
+width: 40px;
+display: -webkit-inline-box;
+}
+.timer-section p{
+text-align: center;
+padding-top: 10px;
+font-size: 14px;
+}
+
+.round{
+    border: 1px solid #ddd;
+border-radius: 50%;
+}
+/*.social */
+.social {}
+.social li{}
+.social li .fa.border{
+border: 1px solid;
+width: 30px;
+height: 30px;
+line-height: 30px;
+}
+.social li .fa.round{ 
+width: 30px;
+height: 30px;
+line-height: 30px;
+}
+.social li .fa:hover{}

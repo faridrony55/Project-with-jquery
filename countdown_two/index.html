@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="shortcut icon" href="asset/img/ems.png">
+    <title>Timer | Employee Managment System </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"  rel="stylesheet"> 
+    <link href="asset/css/parallax.css" rel="stylesheet" type="text/css"> 
+    <!-- sign up form validation-->
+    <link rel="stylesheet" href="asset/css/font-awesome.min.css"> 
+    <!-- custom css -->
+    <link rel="stylesheet" href="asset/css/custom.css">
+    
+  </head>
+ 
+
+<!--////////////////////////////////////////////////////////////////--> 
+<!--__________***************________________-->
+
+<body class="bg2">
+
+<div id="foreground" class="mouse-bg"></div> 
+<!-- <div id="fore-foreground"  class="mouse-bg"></div>   -->
+<div id="fore-fore-foreground"  class="mouse-bg"></div>
+
+
+<section class="timer-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="row">
+          <h1>Rain</h1>
+          <p>We will be back when the rain stop</p>
+          <div class="col-sm-12  ">
+               <ul id="example">
+      <li class="bor_right"><span class="days">00</span><p class="days_text">Days</p></li>
+        <!-- <li class="seperator">:</li> -->
+        <li class="bor_right"><span class="hours">00</span><p class="hours_text">Hours</p></li>
+        <!-- <li class="seperator">:</li> -->
+        <li class="bor_right"><span class="minutes">00</span><p class="minutes_text">Minutes</p></li>
+        <!-- <li class="seperator">:</li> -->
+        <li class="bor_right"><span class="seconds">00</span><p class="seconds_text">Seconds</p></li>
+    </ul>
+    <ul class="list-inline text-center social">
+        <li><a href="#"><span class="fa fa-facebook border"></span></a></li>
+        <li><a href="#"><span class="fa fa-linkedin border"></span></a></li>
+        <li><a href="#"><span class="fa fa-google-plus border"></span></a></li>
+        <li><a href="#"><span class="fa fa-twitter border"></span></a></li>
+    </ul>
+    <p>Stay with us</p>
+          </div>
+          <!-- sign up / signin section-->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!--////////////////////////////////////////////////////////////////-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+ 
+<script src="asset/js/mouse.parallax.js"></script>
+
+<script>
+$(document).ready(function() { 
+        $('#foreground').mouseParallax({ moveFactor: 5 });
+        $('#fore-foreground').mouseParallax({ moveFactor: 0 });
+        $('#fore-fore-foreground').mouseParallax({ moveFactor: 0 });
+        //$('body').height();
+      });
+</script>
+ 
+  </body>
+</html>
+
+    <link type="text/css" href="asset/timer1/jquery.countdown.css?v=1.0.0.0" rel="stylesheet"> 
+    <script type="text/javascript" src="asset/timer1/jquery.countdown.min.js?v=1.0.0.0"></script>
+        <script type="text/javascript">
+        $('#example').countdown({
+            date: '6/1/2017 23:59:59',
+            offset: -8,
+            day: 'Day',
+            days: 'Days'
+        }, function () {
+            alert('Done!');
+        });
+    </script>
+ 
